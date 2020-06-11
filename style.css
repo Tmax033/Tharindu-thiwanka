@@ -144,6 +144,11 @@ body{
         z-index:0;
     }
 }
+.btn-primary{
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
 
 .social {
     padding: .5rem 1rem;
