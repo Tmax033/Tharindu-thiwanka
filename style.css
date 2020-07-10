@@ -61,6 +61,24 @@ body{
     z-index:1;
     transition: left .5s ease;
 }
+#topBtn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 40px;
+
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+    transition: all .4s;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
 
 #header nav{
     height: 100vh;
@@ -72,7 +90,7 @@ body{
 }
 
 #header .nav-link{
-    margin: .7rem 1rem;
+    margin: .6rem 1rem;
     border-bottom: 1px solid var(--color-border);
     text-transform: uppercase;
 }

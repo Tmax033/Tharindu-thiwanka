@@ -16,6 +16,26 @@ $(document).ready(function(e){
 
 });
 
+
+$(document).ready(function($){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('#topBtn').fadeIn('slow');
+        } else {
+            $('#topBtn').fadeOut('slow');
+        }
+    });
+    $('#topBtn').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 800);
+        return false;
+    });
+});
+
+
+
+
+ 
+
 function toggle_onclick($win, $navbar, width){
     if($win.width() <= 768){
         $navbar.css({left: `-${width}px`});
