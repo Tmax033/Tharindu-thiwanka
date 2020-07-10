@@ -161,7 +161,15 @@ html{
     #header{
         z-index:0;
     }
+    
 }
+
+@media only screen and (min-width: 769px) {
+    a#topBtn {
+        display: none!important;
+    }
+}
+
 .btn-primary{
     color: #fff;
     background-color: #343a40;
